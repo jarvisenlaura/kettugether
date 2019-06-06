@@ -1,0 +1,14 @@
+uuid: be2c1707-6c0e-479b-acaf-b0d373cffcb7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - jarvisenlaura@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
