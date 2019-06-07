@@ -1,0 +1,25 @@
+body {
+   background-color: pink;
+}
+
+#block-mytheme-main-menu ul li {
+   display: inline;
+   margin: 0 10px;
+
+}
+#block-mytheme-main-menu {
+   background-color: white;
+   padding: 10px;
+}
+
+main {
+   width: 700px;
+   margin: auto;
+
+}
+#block-poweredbyminna {
+   background-color: white;
+   padding:10px;
+   font-family: calibri;
+
+}
