@@ -1,0 +1,22 @@
+uuid: 72589e96-93d7-42f2-a831-5ed74819324b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.taustakuva.field_tausta_image
+    - node.type.taustakuva
+  module:
+    - user
+id: node.taustakuva.teaser
+targetEntityType: node
+bundle: taustakuva
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_tausta_image: true

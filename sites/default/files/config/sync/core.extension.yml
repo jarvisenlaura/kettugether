@@ -1,5 +1,6 @@
 module:
   automated_cron: 0
+  background_image_formatter: 0
   big_pipe: 0
   block: 0
   block_content: 0
@@ -15,6 +16,8 @@ module:
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  feeds: 0
+  feeds_ex: 0
   field: 0
   field_ui: 0
   file: 0
@@ -41,6 +44,8 @@ module:
   tour: 0
   update: 0
   user: 0
+  views_slideshow: 0
+  views_slideshow_cycle: 0
   views_ui: 0
   menu_link_content: 1
   pathauto: 1

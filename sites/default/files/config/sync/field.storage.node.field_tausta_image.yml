@@ -1,0 +1,30 @@
+uuid: 549d370a-42b9-46d0-af5b-7f65bef90656
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_tausta_image
+field_name: field_tausta_image
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: 8b683f16-4223-4089-8021-97acd5ec8b56
+    alt: ''
+    title: ''
+    width: 159
+    height: 109
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
