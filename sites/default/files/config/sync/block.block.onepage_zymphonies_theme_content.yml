@@ -1,17 +1,17 @@
-uuid: 08ffd986-72e9-4494-b10d-74f8bde29dd7
+uuid: f42a9b3a-b1d3-44a8-88e6-d9ddc0864f34
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - mytheme
+    - onepage_zymphonies_theme
 _core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
-id: mytheme_content
-theme: mytheme
+  default_config_hash: 82Ht9BVz_61ZATsrt_9TF9ZVdrrzaDjbXabQ1A8U4O8
+id: onepage_zymphonies_theme_content
+theme: onepage_zymphonies_theme
 region: content
-weight: 0
+weight: 1
 provider: null
 plugin: system_main_block
 settings:

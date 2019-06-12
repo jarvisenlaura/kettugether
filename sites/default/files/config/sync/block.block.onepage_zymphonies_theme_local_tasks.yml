@@ -1,15 +1,15 @@
-uuid: 0a5b2520-ad0f-4c12-b475-2e7e6985d4fb
+uuid: 1f16a51d-d1c0-43c9-bfde-f50d2a785481
 langcode: en
 status: true
 dependencies:
   theme:
-    - mytheme
+    - onepage_zymphonies_theme
 _core:
-  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
-id: mytheme_local_tasks
-theme: mytheme
+  default_config_hash: lYfZyOcTZ83lrWEl7Gf6sUlsFedgtAF1W94T89UtJSc
+id: onepage_zymphonies_theme_local_tasks
+theme: onepage_zymphonies_theme
 region: content
-weight: -40
+weight: 0
 provider: null
 plugin: local_tasks_block
 settings:
