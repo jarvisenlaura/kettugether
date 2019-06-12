@@ -1,18 +1,18 @@
-uuid: 5c4ac3ea-df81-4e50-9eb1-fd22d65a24da
+uuid: ed777474-5380-4018-b091-689b42f422f9
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.footer
   module:
     - system
   theme:
-    - mytheme
+    - onepage_zymphonies_theme
 _core:
-  default_config_hash: 8zRjTNbfNAJ94lQpZDu6MkyD87GYJ2zpH9VQPVmRbcM
-id: mytheme_footer
-theme: mytheme
-region: header
+  default_config_hash: yQor-DCyb7o-phOns6qHZcXCaYHNcrntPuDF-4E1kXU
+id: onepage_zymphonies_theme_footer
+theme: onepage_zymphonies_theme
+region: auto_hidden_block
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'
