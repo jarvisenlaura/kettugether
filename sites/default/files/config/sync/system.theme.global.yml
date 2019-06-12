@@ -1,15 +1,19 @@
 favicon:
-  mimetype: image/vnd.microsoft.icon
-  path: ''
+  mimetype: image/png
+  path: 'public://om_puupallo.png'
   url: ''
-  use_default: true
+  use_default: false
 features:
   comment_user_picture: true
   comment_user_verification: true
   favicon: true
   node_user_picture: true
 logo:
+<<<<<<< HEAD
   path: 'public://koelogo.PNG'
+=======
+  path: 'public://kettugether_circle.png'
+>>>>>>> f6713a360f37ba7b01e6528a3123a65792557988
   url: ''
   use_default: false
 _core:
