@@ -9,11 +9,7 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-<<<<<<< HEAD
-  path: 'public://koelogo.PNG'
-=======
   path: 'public://kettugether_circle.png'
->>>>>>> f6713a360f37ba7b01e6528a3123a65792557988
   url: ''
   use_default: false
 _core:
