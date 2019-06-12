@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+uuid: e0515539-8ee9-4237-bc30-f35536e51049
+=======
+uuid: 8b451bd1-3002-49d1-828c-ffeaf8692673
+>>>>>>> 64f1321e72487743813041d7e537b5fc8dae676c
+langcode: en
+status: true
+dependencies:
+  module:
+    - shortcut
+id: shortcut.token
+label: Token
+targetEntityType: shortcut
+cache: true

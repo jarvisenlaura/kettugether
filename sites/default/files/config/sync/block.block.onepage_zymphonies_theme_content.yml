@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+uuid: f42a9b3a-b1d3-44a8-88e6-d9ddc0864f34
+=======
+uuid: d9bf9dea-2d83-4d44-9ede-df0bceebcd98
+>>>>>>> 64f1321e72487743813041d7e537b5fc8dae676c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - onepage_zymphonies_theme
+_core:
+  default_config_hash: 82Ht9BVz_61ZATsrt_9TF9ZVdrrzaDjbXabQ1A8U4O8
+id: onepage_zymphonies_theme_content
+theme: onepage_zymphonies_theme
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

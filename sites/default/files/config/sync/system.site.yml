@@ -1,0 +1,14 @@
+uuid: 9469465f-fa31-4ee8-8de3-5cf6041d9372
+name: Kettugether
+mail: jarvisenlaura@gmail.com
+slogan: 'Kettugether tekee metsään menemisestä helppoa.. mutta sieltä lähteminen voi olla vaikeaa.'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

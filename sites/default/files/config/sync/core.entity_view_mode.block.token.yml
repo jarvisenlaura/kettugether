@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+uuid: 32608f0b-bd3e-4dad-a8a0-a104d84597c1
+=======
+uuid: ac8017f5-a883-41e1-95d9-7e07559d4175
+>>>>>>> 64f1321e72487743813041d7e537b5fc8dae676c
+langcode: en
+status: true
+dependencies:
+  module:
+    - block
+id: block.token
+label: Token
+targetEntityType: block
+cache: true

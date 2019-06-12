@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+uuid: 223e5cee-0c79-477f-a941-7543a0bb3849
+=======
+uuid: 30c0dfd2-8a56-4118-918a-5f3d1f362d3c
+>>>>>>> 64f1321e72487743813041d7e537b5fc8dae676c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link_content.token
+label: Token
+targetEntityType: menu_link_content
+cache: true

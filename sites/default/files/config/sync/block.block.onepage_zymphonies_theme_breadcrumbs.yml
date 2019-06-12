@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+uuid: 79c850a6-63b2-4bce-aae3-033b30619662
+=======
+uuid: 6514a611-15c0-4880-9103-5f9c53db5288
+>>>>>>> 64f1321e72487743813041d7e537b5fc8dae676c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - onepage_zymphonies_theme
+_core:
+  default_config_hash: E3mMHXjKTgXvkLtB2g1V5xNa5nLptiqWEAa5TGipJP8
+id: onepage_zymphonies_theme_breadcrumbs
+theme: onepage_zymphonies_theme
+region: breadcrumb
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

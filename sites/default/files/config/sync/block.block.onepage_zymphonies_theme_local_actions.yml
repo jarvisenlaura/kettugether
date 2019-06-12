@@ -1,0 +1,24 @@
+<<<<<<< HEAD
+uuid: 56c0ec5d-89a6-4a24-86cd-1e9ff854d2c5
+=======
+uuid: d1e3d448-3cbe-40ef-bd78-4a44f6e35233
+>>>>>>> 64f1321e72487743813041d7e537b5fc8dae676c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - onepage_zymphonies_theme
+_core:
+  default_config_hash: s_nu0O3_OAmdn8L6gbkZyk2QA-f1XSKMg4oe9VilAPE
+id: onepage_zymphonies_theme_local_actions
+theme: onepage_zymphonies_theme
+region: auto_hidden_block
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

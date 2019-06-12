@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+uuid: 1f16a51d-d1c0-43c9-bfde-f50d2a785481
+=======
+uuid: 1d4f95ec-eefb-40bf-bba2-57ad9936f627
+>>>>>>> 64f1321e72487743813041d7e537b5fc8dae676c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - onepage_zymphonies_theme
+_core:
+  default_config_hash: lYfZyOcTZ83lrWEl7Gf6sUlsFedgtAF1W94T89UtJSc
+id: onepage_zymphonies_theme_local_tasks
+theme: onepage_zymphonies_theme
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

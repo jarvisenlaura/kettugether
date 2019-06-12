@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+uuid: d443f9f3-f7ce-400a-9074-82c4bdae588e
+=======
+uuid: 8d4f7bc9-76e9-49c3-b773-35dbdaca7c2a
+>>>>>>> 64f1321e72487743813041d7e537b5fc8dae676c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - onepage_zymphonies_theme
+_core:
+  default_config_hash: EuihIzoerCpUIJRlD37LZKXceNuDp9FtPMA3IgHNVG0
+id: onepage_zymphonies_theme_account_menu
+theme: onepage_zymphonies_theme
+region: auto_hidden_block
+weight: 11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

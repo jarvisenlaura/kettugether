@@ -1,0 +1,31 @@
+uuid: 390a5367-8f6f-49ad-9411-9ac0af805f58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.taustakuva.field_tausta_image
+    - node.type.taustakuva
+  module:
+    - background_image_formatter
+    - user
+id: node.taustakuva.default
+targetEntityType: node
+bundle: taustakuva
+mode: default
+content:
+  field_tausta_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      background_image_output_type: inline
+      background_image_selector: ''
+    third_party_settings: {  }
+    type: background_image_formatter
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

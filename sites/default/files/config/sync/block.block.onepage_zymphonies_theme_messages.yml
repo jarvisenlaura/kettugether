@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+uuid: 10696412-fd7f-4ebf-be20-aa0f8b959456
+=======
+uuid: df9d30b4-fe23-46f5-92df-1b736142c302
+>>>>>>> 64f1321e72487743813041d7e537b5fc8dae676c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - onepage_zymphonies_theme
+_core:
+  default_config_hash: 9TvF0hjxY0_qtN9qggFtSrmFFCLeGgYTK0BXD_YlXXQ
+id: onepage_zymphonies_theme_messages
+theme: onepage_zymphonies_theme
+region: highlighted
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

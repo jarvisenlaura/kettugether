@@ -1,0 +1,20 @@
+favicon:
+  mimetype: image/png
+  path: 'public://om_puupallo.png'
+  url: ''
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+<<<<<<< HEAD
+  path: 'public://kettugether_circle.png'
+=======
+  path: 'public://koelogo.PNG'
+>>>>>>> 64f1321e72487743813041d7e537b5fc8dae676c
+  url: ''
+  use_default: false
+_core:
+  default_config_hash: 9rAU4Pku7eMBQxauQqAgjzlcicFZ2As6zEa6zvTlCB8
