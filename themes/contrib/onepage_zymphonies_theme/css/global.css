@@ -488,7 +488,8 @@ body {
 .footer-menu {
   margin: 0;
   border: 0;
-  background: url('https://edit.myhelsinki.fi/sites/default/files/styles/column_full/public/2017-06/mushroom_picking_jussi_hellsten.jpg?itok=91V2gHLe');
+  /*background: url('https://edit.myhelsinki.fi/sites/default/files/styles/column_full/public/2017-06/mushroom_picking_jussi_hellsten.jpg?itok=91V2gHLe');*/
+  background: url('https://swd.fi/wp-content/uploads/2017/03/shutterstock_174520748-800x360.jpg');
   color: #fff;
   background-size: cover;
   padding: 80px 0;
@@ -781,7 +782,7 @@ abbr.ajax-changed {
 .region-header .brand {
   display: inline-block;
   vertical-align: middle;
-  /*color: white;*/
+  color: white;
   line-height: 120%;
   font-size: 1.5em;
 }
