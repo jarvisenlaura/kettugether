@@ -60,7 +60,8 @@ _core:
 <<<<<<< HEAD
 =======
 logo:
-  use_default: 1
+  use_default: 0
+  path: 'public://kettugether_circle_0.png'
 favicon:
   use_default: 1
 slide_image_path1:

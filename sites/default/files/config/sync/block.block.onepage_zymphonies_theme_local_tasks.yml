@@ -13,7 +13,7 @@ _core:
 id: onepage_zymphonies_theme_local_tasks
 theme: onepage_zymphonies_theme
 region: content
-weight: 0
+weight: -6
 provider: null
 plugin: local_tasks_block
 settings:
