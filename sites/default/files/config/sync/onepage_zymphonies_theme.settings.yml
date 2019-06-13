@@ -31,7 +31,8 @@ slide_image_path_3: /images/slider/slide_03.jpg
 _core:
   default_config_hash: KaLNVgq6qGhSV-TerDCQAiCaPJrmq41RgHhVcYzbxjI
 logo:
-  use_default: 1
+  use_default: 0
+  path: 'public://kettugether_circle_0.png'
 favicon:
   use_default: 1
 slide_image_path1:
