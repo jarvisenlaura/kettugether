@@ -1,0 +1,30 @@
+uuid: 6bac34c4-a01a-4f23-8d20-b4eb84e2a31b
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_main_image
+field_name: field_main_image
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: 3af69a77-a5ec-482d-a365-417a0c1d40f6
+    alt: kettupolku
+    title: Kettupolut
+    width: 1366
+    height: 768
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
