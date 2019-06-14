@@ -4,8 +4,10 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+
     "hash": "4c3121600d758520e0ac230160cf39c7",
     "content-hash": "e1a3aaac42f9d5e2aa830a05ad012a8e",
+
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2161,6 +2163,7 @@
             }
         },
         {
+<<<<<<< HEAD
             "name": "drupal/devel",
             "version": "2.1.0",
             "source": {
@@ -2177,10 +2180,28 @@
             "require": {
                 "drupal/core": "~8.0",
                 "symfony/var-dumper": "~2.7|^3|^4"
+=======
+            "name": "drupal/feeds",
+            "version": "3.0.0-alpha5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/feeds.git",
+                "reference": "8.x-3.0-alpha5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/feeds-8.x-3.0-alpha5.zip",
+                "reference": "8.x-3.0-alpha5",
+                "shasum": "e0267cb59da7b28888801eec99c39e7057c9a24e"
+            },
+            "require": {
+                "drupal/core": "^8.5.0"
+>>>>>>> e341e68dc40fc8e0c20db6b2c8d95d9fc64a6438
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
@@ -2194,6 +2215,16 @@
                 "drush": {
                     "services": {
                         "drush.services.yml": "^9"
+=======
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-alpha5",
+                    "datestamp": "1557081481",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+>>>>>>> e341e68dc40fc8e0c20db6b2c8d95d9fc64a6438
                     }
                 }
             },
@@ -2203,6 +2234,7 @@
             ],
             "authors": [
                 {
+<<<<<<< HEAD
                     "name": "Moshe Weitzman",
                     "homepage": "https://github.com/weitzman",
                     "email": "weitzman@tejasa.com",
@@ -2243,6 +2275,132 @@
                 "source": "http://cgit.drupalcode.org/devel",
                 "issues": "http://drupal.org/project/devel",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
+=======
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "Ian Ward",
+                    "homepage": "https://www.drupal.org/user/4736"
+                },
+                {
+                    "name": "MegaChriz",
+                    "homepage": "https://www.drupal.org/user/654114"
+                },
+                {
+                    "name": "Will White",
+                    "homepage": "https://www.drupal.org/user/32237"
+                },
+                {
+                    "name": "alex_b",
+                    "homepage": "https://www.drupal.org/user/53995"
+                },
+                {
+                    "name": "e2thex",
+                    "homepage": "https://www.drupal.org/user/189123"
+                },
+                {
+                    "name": "febbraro",
+                    "homepage": "https://www.drupal.org/user/43670"
+                },
+                {
+                    "name": "franz",
+                    "homepage": "https://www.drupal.org/user/581844"
+                },
+                {
+                    "name": "jmiccolis",
+                    "homepage": "https://www.drupal.org/user/31731"
+                },
+                {
+                    "name": "kking",
+                    "homepage": "https://www.drupal.org/user/24399"
+                },
+                {
+                    "name": "tobby",
+                    "homepage": "https://www.drupal.org/user/154797"
+                },
+                {
+                    "name": "tristanoneil",
+                    "homepage": "https://www.drupal.org/user/340659"
+                },
+                {
+                    "name": "twistor",
+                    "homepage": "https://www.drupal.org/user/473738"
+                },
+                {
+                    "name": "yhahn",
+                    "homepage": "https://www.drupal.org/user/264833"
+                }
+            ],
+            "description": "Aggregates RSS/Atom/RDF feeds, imports CSV files and more.",
+            "homepage": "https://www.drupal.org/project/feeds",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/feeds",
+                "issues": "https://www.drupal.org/project/issues/feeds"
+            }
+        },
+        {
+            "name": "drupal/feeds_ex",
+            "version": "1.0.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/feeds_ex.git",
+                "reference": "8.x-1.0-alpha2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/feeds_ex-8.x-1.0-alpha2.zip",
+                "reference": "8.x-1.0-alpha2",
+                "shasum": "a65773fb8ab6d0a91c8be65eb74da779f5124e49"
+            },
+            "require": {
+                "drupal/core": "^8.5.0",
+                "drupal/feeds": "*",
+                "mtdowling/jmespath.php": "2.*",
+                "peekmo/jsonpath": "1.*",
+                "querypath/querypath": "3.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha2",
+                    "datestamp": "1536249180",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "MegaChriz",
+                    "homepage": "https://www.drupal.org/user/654114"
+                },
+                {
+                    "name": "twistor",
+                    "homepage": "https://www.drupal.org/user/473738"
+                }
+            ],
+            "description": "A generic Feeds parser used to create extensible parsers.",
+            "homepage": "http://drupal.org/project/feeds_ex",
+            "keywords": [
+                "feeds",
+                "parser"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/feeds_ex",
+                "issues": "http://drupal.org/project/issues/feeds_ex"
+>>>>>>> e341e68dc40fc8e0c20db6b2c8d95d9fc64a6438
             }
         },
         {
@@ -2520,6 +2678,67 @@
             "homepage": "https://www.drupal.org/project/token",
             "support": {
                 "source": "https://git.drupalcode.org/project/token"
+            }
+        },
+        {
+            "name": "drupal/views_slideshow",
+            "version": "4.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/views_slideshow.git",
+                "reference": "8.x-4.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_slideshow-8.x-4.6.zip",
+                "reference": "8.x-4.6",
+                "shasum": "c0b2d3c0765b9215fdefb3313dd42a8bbb7409c5"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-4.x": "4.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-4.6",
+                    "datestamp": "1510987085",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "See contributors",
+                    "homepage": "https://www.drupal.org/node/160350/committers"
+                },
+                {
+                    "name": "aaron",
+                    "homepage": "https://www.drupal.org/user/33420"
+                },
+                {
+                    "name": "redndahead",
+                    "homepage": "https://www.drupal.org/user/160320"
+                },
+                {
+                    "name": "vbouchet",
+                    "homepage": "https://www.drupal.org/user/1671428"
+                }
+            ],
+            "description": "Describes relationships between entities.",
+            "homepage": "https://www.drupal.org/project/views_slideshow",
+            "support": {
+                "source": "https://cgit.drupalcode.org/views_slideshow",
+                "issues": "https://www.drupal.org/project/issues/views_slideshow",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
             }
         },
         {
@@ -3285,6 +3504,61 @@
             "time": "2017-09-04 12:26:28"
         },
         {
+            "name": "mtdowling/jmespath.php",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jmespath/jmespath.php.git",
+                "reference": "adcc9531682cf87dfda21e1fd5d0e7a41d292fac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/adcc9531682cf87dfda21e1fd5d0e7a41d292fac",
+                "reference": "adcc9531682cf87dfda21e1fd5d0e7a41d292fac",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "bin": [
+                "bin/jp.php"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JmesPath\\": "src/"
+                },
+                "files": [
+                    "src/JmesPath.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Declaratively specify how to extract elements from a JSON document",
+            "keywords": [
+                "json",
+                "jsonpath"
+            ],
+            "time": "2016-12-03 22:08:25"
+        },
+        {
             "name": "nikic/php-parser",
             "version": "v4.2.2",
             "source": {
@@ -3597,6 +3871,7 @@
             "time": "2015-02-10 20:07:52"
         },
         {
+<<<<<<< HEAD
             "name": "phpoption/phpoption",
             "version": "1.5.0",
             "source": {
@@ -3625,10 +3900,33 @@
             "autoload": {
                 "psr-0": {
                     "PhpOption\\": "src/"
+=======
+            "name": "peekmo/jsonpath",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Peekmo/JsonPath.git",
+                "reference": "b5e14d95473932a236fdbff8f3c8e9f5f533e7eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Peekmo/JsonPath/zipball/b5e14d95473932a236fdbff8f3c8e9f5f533e7eb",
+                "reference": "b5e14d95473932a236fdbff8f3c8e9f5f533e7eb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-0": {
+                    "Peekmo\\JsonPath": "src/"
+>>>>>>> e341e68dc40fc8e0c20db6b2c8d95d9fc64a6438
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
+<<<<<<< HEAD
                 "Apache2"
             ],
             "authors": [
@@ -3645,6 +3943,22 @@
                 "type"
             ],
             "time": "2015-07-25 16:39:46"
+=======
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stefan Goessner"
+                },
+                {
+                    "name": "Axel Anceau",
+                    "email": "axel.anceau@gmail.com"
+                }
+            ],
+            "description": "Library to use JsonPath",
+            "homepage": "https://github.com/Peekmo/JsonPath",
+            "time": "2014-05-18 12:18:50"
+>>>>>>> e341e68dc40fc8e0c20db6b2c8d95d9fc64a6438
         },
         {
             "name": "psr/container",
@@ -3865,6 +4179,48 @@
                 "shell"
             ],
             "time": "2018-10-13 15:16:03"
+        },
+        {
+            "name": "querypath/querypath",
+            "version": "3.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/technosophos/querypath.git",
+                "reference": "6b8e2395fac61fac25bbe962f94def556cb85f7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/technosophos/querypath/zipball/6b8e2395fac61fac25bbe962f94def556cb85f7d",
+                "reference": "6b8e2395fac61fac25bbe962f94def556cb85f7d",
+                "shasum": ""
+            },
+            "require": {
+                "masterminds/html5": "2.*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "QueryPath": "src/"
+                },
+                "files": [
+                    "src/qp_functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "HTML/XML querying (CSS 4 or XPath) and processing (like jQuery)",
+            "homepage": "https://github.com/technosophos/querypath",
+            "keywords": [
+                "css",
+                "html",
+                "jquery",
+                "xml",
+                "xslt"
+            ],
+            "time": "2016-08-01 22:40:30"
         },
         {
             "name": "stack/builder",
@@ -7831,6 +8187,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/feeds": 15,
+        "drupal/feeds_ex": 15,
         "behat/mink": 20,
         "behat/mink-selenium2-driver": 20
     },

@@ -8,6 +8,7 @@
 **/
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900");
 @import url("https://fonts.googleapis.com/css?family=Ultra");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -357,7 +358,7 @@ h1, .h1,
 h2, .h2,
 h3, .h3,
 h4, .h4 {
-  font-family: "Ultra", serif;
+  font-family: 'Roboto', sans-serif;
   color: #474747;
   font-weight: 500;
   margin: 10px 0;
@@ -431,7 +432,7 @@ body {
   color: black;
   overflow-x: hidden;
   font-weight: 300;
-  background: url('../images/body-bg.png?1487047946') white;
+  background: /*url('../images/body-bg.png?1487047946')*/ #F5F5F5;
   padding-top: 55px;
 }
 
@@ -458,7 +459,7 @@ body {
 
 .copyright {
   font-size: .9em;
-  background: #000;
+  background: #96D4C3;
   color: #fff;
 }
 .copyright p {
@@ -487,7 +488,8 @@ body {
 .footer-menu {
   margin: 0;
   border: 0;
-  background: url('../images/social-media-bg.png?1486993126');
+  /*background: url('https://edit.myhelsinki.fi/sites/default/files/styles/column_full/public/2017-06/mushroom_picking_jussi_hellsten.jpg?itok=91V2gHLe');*/
+  background: url('https://swd.fi/wp-content/uploads/2017/03/shutterstock_174520748-800x360.jpg');
   color: #fff;
   background-size: cover;
   padding: 80px 0;
@@ -745,13 +747,15 @@ abbr.ajax-changed {
 /*Header*/
 .main-header {
   background: #fff;
-  background: #000;
+  /*background: #96D4C3;*/
+  background: url('https://swd.fi/wp-content/uploads/2017/03/shutterstock_174520748-800x360.jpg');
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 999;
   overflow: auto;
+  padding: 40px;
 }
 .main-header nav {
   background: none;
@@ -772,6 +776,8 @@ abbr.ajax-changed {
 .site-branding {
   margin: 0;
 }
+
+
 
 .region-header .brand {
   display: inline-block;
@@ -983,7 +989,7 @@ nav h2 {
   background: none;
 }
 .menu-base-theme li a {
-  font-family: "Ultra", serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
   border-bottom: 1px solid #383737;
   line-height: 100%;
@@ -1264,7 +1270,7 @@ nav h2 {
 }
 .field--name-field-clients-logo .owl-item img {
   display: inline-block;
-  width: auto;
+  width: 100px;
 }
 
 .field--name-field-service .owl-item {
