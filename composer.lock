@@ -4,10 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-
-    "hash": "4c3121600d758520e0ac230160cf39c7",
-    "content-hash": "e1a3aaac42f9d5e2aa830a05ad012a8e",
-
+    "hash": "722950906a43a91bf0bf877b74559a98",
+    "content-hash": "e5a749282cb9c4b539250be3d9c3bbb1",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2163,7 +2161,6 @@
             }
         },
         {
-<<<<<<< HEAD
             "name": "drupal/devel",
             "version": "2.1.0",
             "source": {
@@ -2180,28 +2177,10 @@
             "require": {
                 "drupal/core": "~8.0",
                 "symfony/var-dumper": "~2.7|^3|^4"
-=======
-            "name": "drupal/feeds",
-            "version": "3.0.0-alpha5",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/feeds.git",
-                "reference": "8.x-3.0-alpha5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/feeds-8.x-3.0-alpha5.zip",
-                "reference": "8.x-3.0-alpha5",
-                "shasum": "e0267cb59da7b28888801eec99c39e7057c9a24e"
-            },
-            "require": {
-                "drupal/core": "^8.5.0"
->>>>>>> e341e68dc40fc8e0c20db6b2c8d95d9fc64a6438
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
@@ -2215,16 +2194,6 @@
                 "drush": {
                     "services": {
                         "drush.services.yml": "^9"
-=======
-                    "dev-3.x": "3.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-3.0-alpha5",
-                    "datestamp": "1557081481",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
->>>>>>> e341e68dc40fc8e0c20db6b2c8d95d9fc64a6438
                     }
                 }
             },
@@ -2234,7 +2203,6 @@
             ],
             "authors": [
                 {
-<<<<<<< HEAD
                     "name": "Moshe Weitzman",
                     "homepage": "https://github.com/weitzman",
                     "email": "weitzman@tejasa.com",
@@ -2275,7 +2243,45 @@
                 "source": "http://cgit.drupalcode.org/devel",
                 "issues": "http://drupal.org/project/devel",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
-=======
+            }
+        },
+        {
+            "name": "drupal/feeds",
+            "version": "3.0.0-alpha5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/feeds.git",
+                "reference": "8.x-3.0-alpha5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/feeds-8.x-3.0-alpha5.zip",
+                "reference": "8.x-3.0-alpha5",
+                "shasum": "e0267cb59da7b28888801eec99c39e7057c9a24e"
+            },
+            "require": {
+                "drupal/core": "^8.5.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-alpha5",
+                    "datestamp": "1557081481",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
                     "name": "Dave Reid",
                     "homepage": "https://www.drupal.org/user/53892"
                 },
@@ -2400,7 +2406,67 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/feeds_ex",
                 "issues": "http://drupal.org/project/issues/feeds_ex"
->>>>>>> e341e68dc40fc8e0c20db6b2c8d95d9fc64a6438
+            }
+        },
+        {
+            "name": "drupal/kint",
+            "version": "2.1.0",
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/devel": "self.version"
+            },
+            "type": "metapackage",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.1",
+                    "datestamp": "1556799496",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "catch",
+                    "homepage": "https://www.drupal.org/user/35733"
+                },
+                {
+                    "name": "juampynr",
+                    "homepage": "https://www.drupal.org/user/682736"
+                },
+                {
+                    "name": "lussoluca",
+                    "homepage": "https://www.drupal.org/user/138068"
+                },
+                {
+                    "name": "moshe weitzman",
+                    "homepage": "https://www.drupal.org/user/23"
+                },
+                {
+                    "name": "pcambra",
+                    "homepage": "https://www.drupal.org/user/122101"
+                },
+                {
+                    "name": "salvis",
+                    "homepage": "https://www.drupal.org/user/82964"
+                },
+                {
+                    "name": "willzyx",
+                    "homepage": "https://www.drupal.org/user/1043862"
+                }
+            ],
+            "description": "Wrapper for Kint debugging tool.",
+            "homepage": "https://www.drupal.org/project/devel",
+            "support": {
+                "source": "https://git.drupalcode.org/project/devel"
             }
         },
         {
@@ -3871,7 +3937,46 @@
             "time": "2015-02-10 20:07:52"
         },
         {
-<<<<<<< HEAD
+            "name": "peekmo/jsonpath",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Peekmo/JsonPath.git",
+                "reference": "b5e14d95473932a236fdbff8f3c8e9f5f533e7eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Peekmo/JsonPath/zipball/b5e14d95473932a236fdbff8f3c8e9f5f533e7eb",
+                "reference": "b5e14d95473932a236fdbff8f3c8e9f5f533e7eb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-0": {
+                    "Peekmo\\JsonPath": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stefan Goessner"
+                },
+                {
+                    "name": "Axel Anceau",
+                    "email": "axel.anceau@gmail.com"
+                }
+            ],
+            "description": "Library to use JsonPath",
+            "homepage": "https://github.com/Peekmo/JsonPath",
+            "time": "2014-05-18 12:18:50"
+        },
+        {
             "name": "phpoption/phpoption",
             "version": "1.5.0",
             "source": {
@@ -3900,33 +4005,10 @@
             "autoload": {
                 "psr-0": {
                     "PhpOption\\": "src/"
-=======
-            "name": "peekmo/jsonpath",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Peekmo/JsonPath.git",
-                "reference": "b5e14d95473932a236fdbff8f3c8e9f5f533e7eb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Peekmo/JsonPath/zipball/b5e14d95473932a236fdbff8f3c8e9f5f533e7eb",
-                "reference": "b5e14d95473932a236fdbff8f3c8e9f5f533e7eb",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "type": "project",
-            "autoload": {
-                "psr-0": {
-                    "Peekmo\\JsonPath": "src/"
->>>>>>> e341e68dc40fc8e0c20db6b2c8d95d9fc64a6438
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-<<<<<<< HEAD
                 "Apache2"
             ],
             "authors": [
@@ -3943,22 +4025,6 @@
                 "type"
             ],
             "time": "2015-07-25 16:39:46"
-=======
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Stefan Goessner"
-                },
-                {
-                    "name": "Axel Anceau",
-                    "email": "axel.anceau@gmail.com"
-                }
-            ],
-            "description": "Library to use JsonPath",
-            "homepage": "https://github.com/Peekmo/JsonPath",
-            "time": "2014-05-18 12:18:50"
->>>>>>> e341e68dc40fc8e0c20db6b2c8d95d9fc64a6438
         },
         {
             "name": "psr/container",

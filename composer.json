@@ -15,12 +15,16 @@
         "drupal/console": "~1.0",
         "drupal/devel": "^2.1",
         "drupal/search_kint": "^1.0",
-        "drupal/background_image_formatter": "^1.4"
+        "drupal/background_image_formatter": "^1.4",
 
         "drupal/feeds": "^3.0@alpha",
         "drupal/feeds_ex": "^1.0@alpha",
-        "drupal/views_slideshow": "^4.6"
-
+        "drupal/views_slideshow": "^4.6",
+        "vlucas/phpdotenv": "^3.3",
+        "drupal/console": "~1.0",
+        "drupal/devel": "^2.1",
+        "drupal/search_kint": "^1.0",
+        "drupal/kint": "^2.1"
     },
     "replace": {
         "drupal/core": "^8.7"
