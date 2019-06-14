@@ -13,7 +13,8 @@
         "vlucas/phpdotenv": "^3.3",
         "drupal/console": "~1.0",
         "drupal/devel": "^2.1",
-        "drupal/search_kint": "^1.0"
+        "drupal/search_kint": "^1.0",
+        "drupal/background_image_formatter": "^1.4"
     },
     "replace": {
         "drupal/core": "^8.7"
