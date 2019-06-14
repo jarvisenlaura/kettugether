@@ -34,7 +34,9 @@ logo:
   use_default: 0
   path: 'public://kettugether_circle_0.png'
 favicon:
-  use_default: 1
+  use_default: 0
+  path: 'public://apple-touch-icon_1.png'
+  mimetype: image/png
 slide_image_path1:
   - '65'
 slide_image_path2:
