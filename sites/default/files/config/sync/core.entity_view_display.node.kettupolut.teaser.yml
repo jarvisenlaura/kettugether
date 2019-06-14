@@ -1,0 +1,24 @@
+uuid: 8a55a147-4cd5-478a-9693-bd06f7a53a14
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.kettupolut.field_kuvaus
+    - field.field.node.kettupolut.field_main_image
+    - node.type.kettupolut
+  module:
+    - user
+id: node.kettupolut.teaser
+targetEntityType: node
+bundle: kettupolut
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_kuvaus: true
+  field_main_image: true
