@@ -1757,6 +1757,61 @@
             "time": "2014-09-09 13:34:57"
         },
         {
+            "name": "drupal/background_image_formatter",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/background_image_formatter.git",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/background_image_formatter-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "114b3eabca2cb5b93cde66dd372d742c3e143d34"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1554969781",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Zulljin",
+                    "homepage": "https://www.drupal.org/user/3138649"
+                },
+                {
+                    "name": "garethhallnz",
+                    "homepage": "https://www.drupal.org/user/772766"
+                }
+            ],
+            "description": "Background Image Formatter provides an image formatter to display images in background.",
+            "homepage": "https://www.drupal.org/project/background_image_formatter",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/background_image_formatter",
+                "issues": "https://www.drupal.org/project/issues/background_image_formatter"
+            }
+        },
+        {
             "name": "drupal/console",
             "version": "v1.9.0",
             "source": {
