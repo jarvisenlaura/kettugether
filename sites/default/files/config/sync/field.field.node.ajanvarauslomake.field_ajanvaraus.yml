@@ -1,0 +1,25 @@
+uuid: 3f321566-c616-4159-bf49-48398a3e17fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ajanvaraus
+    - node.type.ajanvarauslomake
+  module:
+    - webform
+id: node.ajanvarauslomake.field_ajanvaraus
+field_name: field_ajanvaraus
+entity_type: node
+bundle: ajanvarauslomake
+label: Ajanvaraus
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

@@ -1,0 +1,20 @@
+uuid: 05c480b0-c08e-419c-8517-ee52e158d6b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.ajanvarauslomake
+  module:
+    - user
+id: node.ajanvarauslomake.teaser
+targetEntityType: node
+bundle: ajanvarauslomake
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

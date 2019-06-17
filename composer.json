@@ -17,7 +17,9 @@
         "drupal/console": "~1.0",
         "drupal/devel": "^2.1",
         "drupal/search_kint": "^1.0",
-        "drupal/kint": "^2.1"
+        "drupal/kint": "^2.1",
+        "drupal/webforms": "0.x-dev",
+        "drupal/webform": "^5.2"
     },
     "replace": {
         "drupal/core": "^8.7"

@@ -1,0 +1,29 @@
+uuid: 3b8d316a-d14d-4ef4-aaf5-0f5f139633f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ajanvarauslomake.field_ajanvaraus
+    - node.type.ajanvarauslomake
+  module:
+    - user
+    - webform
+id: node.ajanvarauslomake.default
+targetEntityType: node
+bundle: ajanvarauslomake
+mode: default
+content:
+  field_ajanvaraus:
+    weight: 101
+    label: above
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
