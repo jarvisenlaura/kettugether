@@ -12,7 +12,6 @@ use Drupal\Core\Routing\RouteMatchInterface;
  */
 function lauran_oma_moduuli_form_alter(&$form, $form_state, $form_id) {
   if ($form_id == 'user_form'){
-     ksm($form);
-     $form['account']['name']['#title'] = "Titteli";
+     $form['account']['name']['#title'] = "Laita tittelisi tähän";
     }   
 }
