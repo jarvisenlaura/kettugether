@@ -15,7 +15,7 @@ rss_url: rss.xml
 show_social_icon: 1
 show_credit_link: 0
 show_slideshow: 1
-no_of_slides: '3'
+no_of_slides: '4'
 slide_title_1: Metsä
 slide_description_1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since'
 slide_url_1: '#'
@@ -43,3 +43,8 @@ slide_image_path2:
   - '66'
 slide_image_path3:
   - '67'
+slide_image_path4:
+  - '101'
+slide_title_4: 'KETTUPOLUT -SOVELLUS KULKEE MUKANASI REITEILLÄ'
+slide_description_4: 'Sovellus on ilmainen ja ladattavissa App Storesta tai Google Playsta. Saat tilauksesi yhteydessä aktivointikoodin sovelluksen avaamiseen. '
+slide_url_4: 'http://test-site.test/node/68'

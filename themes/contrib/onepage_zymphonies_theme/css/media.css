@@ -12,6 +12,9 @@
     overflow: visible;
   }
 
+  #main-menu {
+    background-color: #96D4C3;
+  }
   .user-logged-in .main-header {
     position: relative;
   }
