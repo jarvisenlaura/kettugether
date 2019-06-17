@@ -186,6 +186,7 @@ display:
         type: normal
         title: Retket
         menu_name: main
+        weight: -47
     cache_metadata:
       max-age: -1
       contexts:
