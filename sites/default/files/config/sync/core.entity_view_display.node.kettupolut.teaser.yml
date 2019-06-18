@@ -4,8 +4,11 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.kettupolut.field_footer_kuva
+    - field.field.node.kettupolut.field_footer_kuva2
     - field.field.node.kettupolut.field_kuvaus
     - field.field.node.kettupolut.field_main_image
+    - field.field.node.kettupolut.layout_builder__layout
     - node.type.kettupolut
   module:
     - user
@@ -20,5 +23,9 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_footer_kuva: true
+  field_footer_kuva2: true
   field_kuvaus: true
   field_main_image: true
+  langcode: true
+  layout_builder__layout: true

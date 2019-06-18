@@ -149,8 +149,21 @@
 
   .region-top-menu ul {
     text-align: right;
+
   }
 
+  .content {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+
+ .links {
+  text-align: right;
+
+
+
+ }
   .region-contact-email p {
     margin: 10px 0;
     line-height: 120%;

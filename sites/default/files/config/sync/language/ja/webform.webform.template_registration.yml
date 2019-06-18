@@ -1,0 +1,4 @@
+title: 登録
+handlers:
+  email_notification:
+    label: メール通知
