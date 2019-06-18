@@ -15,7 +15,7 @@ rss_url: rss.xml
 show_social_icon: 1
 show_credit_link: 0
 show_slideshow: 1
-no_of_slides: '5'
+no_of_slides: '6'
 slide_title_1: 'Reitti 2000'
 slide_description_1: 'Reitti 2000 tarjoaa hienon läpileikkauksen pääkaupunkiseudun ja lähikuntien ulkoilumaastoista aina hienoista järvimaisemista rauhallisiin erämaisemiin asti. '
 slide_url_1: '#http://test-site.test/retket'
@@ -53,3 +53,8 @@ slide_image_path5:
 slide_title_5: 'Urbaani sieniretki'
 slide_description_5: 'Irtaudu arjesta helposti poikkeamalla sienimetsään ihan Helsingin keskustan lähistöllä. Kettupolut-sovelluksessa esitelty reitiltä löytyviä syötäviä sieniä. '
 slide_url_5: '#http://test-site.test/retket'
+slide_image_path6:
+  - '112'
+slide_title_6: Villiyrttiretki
+slide_description_6: 'Keväällä ja alkukesästä villiyrtit ovat parhaimmillaan. Villiyrttiretkemme vie sinut luonnonantimien äärelle lähellä Helsingin keskustaa. '
+slide_url_6: '#http://test-site.test/retket'
