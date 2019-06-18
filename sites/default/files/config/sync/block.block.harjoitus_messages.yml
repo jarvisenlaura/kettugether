@@ -1,0 +1,22 @@
+uuid: 55a45975-a8a0-4614-abc0-8f9e6eb9493c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - harjoitus
+_core:
+  default_config_hash: 9TvF0hjxY0_qtN9qggFtSrmFFCLeGgYTK0BXD_YlXXQ
+id: harjoitus_messages
+theme: harjoitus
+region: header
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: b6571830-3ff5-40d3-a19f-c814cdb9f7e6
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - harjoitus
+_core:
+  default_config_hash: wV7vnkR8_HuEpSRt8_7eFO3XeEn4PF3nzrJ91Ev7Mag
+id: harjoitus_search
+theme: harjoitus
+region: header
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

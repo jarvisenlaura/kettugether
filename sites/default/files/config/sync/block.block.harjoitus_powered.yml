@@ -1,0 +1,22 @@
+uuid: 37ae0467-4be9-481a-b6e8-87684178cab9
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - harjoitus
+_core:
+  default_config_hash: VUmFdpIlx9dzhqAOCnXnbQ7VQy_ivzUrEHBFV6bOSJw
+id: harjoitus_powered
+theme: harjoitus
+region: header
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 76ea9422-613a-4362-81de-e635f7d45d63
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - harjoitus
+_core:
+  default_config_hash: dRWfPgtxrrIMEtsguu2ZlqXBUXfUnn4eOxqxHAAN1cc
+id: harjoitus_help
+theme: harjoitus
+region: header
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

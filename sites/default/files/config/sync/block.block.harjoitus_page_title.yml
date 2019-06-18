@@ -1,0 +1,20 @@
+uuid: ec19037e-8eac-4125-b5df-34d7ff5208cb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - harjoitus
+_core:
+  default_config_hash: 1VCCWnmF208UeT7t1w_puegRLueGO9a2b7mWIHRIbNA
+id: harjoitus_page_title
+theme: harjoitus
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

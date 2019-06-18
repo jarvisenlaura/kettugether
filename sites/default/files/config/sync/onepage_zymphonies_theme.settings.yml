@@ -16,17 +16,17 @@ show_social_icon: 1
 show_credit_link: 0
 show_slideshow: 1
 no_of_slides: '4'
-slide_title_1: Metsä
-slide_description_1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since'
-slide_url_1: '#'
+slide_title_1: 'Reitti 2000'
+slide_description_1: 'Reitti 2000 tarjoaa hienon läpileikkauksen pääkaupunkiseudun ja lähikuntien ulkoilumaastoista aina hienoista järvimaisemista rauhallisiin erämaisemiin asti. '
+slide_url_1: '#http://test-site.test/retket'
 slide_image_path_1: /images/slider/slide_01.jpg
 slide_title_2: 'Vietä yö puussa'
-slide_description_2: 'long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution'
-slide_url_2: '#'
+slide_description_2: 'Häiritseekö naapurin kuorsaus tai kivet ja männynkävyt retkelläsi? Riippumatossa voit nukkua yksilöllisesti ja mukavasti luonnon keskellä omassa rauhassa, mutta ryhmän tuomassa turvassa.'
+slide_url_2: '#http://test-site.test/retket'
 slide_image_path_2: /images/slider/slide_02.jpg
-slide_title_3: teltta
-slide_description_3: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since'
-slide_url_3: '#'
+slide_title_3: 'Koe upea korpinkierros Nuuksiossa'
+slide_description_3: 'Näe Mustalammen kelluvat turvelautat ja levähdä piknikillä.'
+slide_url_3: '#http://test-site.test/retket'
 slide_image_path_3: /images/slider/slide_03.jpg
 _core:
   default_config_hash: KaLNVgq6qGhSV-TerDCQAiCaPJrmq41RgHhVcYzbxjI
