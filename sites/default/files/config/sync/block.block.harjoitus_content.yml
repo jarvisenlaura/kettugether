@@ -1,0 +1,22 @@
+uuid: 62d75063-622b-4478-a96c-2d741e1761ac
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - harjoitus
+_core:
+  default_config_hash: 82Ht9BVz_61ZATsrt_9TF9ZVdrrzaDjbXabQ1A8U4O8
+id: harjoitus_content
+theme: harjoitus
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

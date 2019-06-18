@@ -1,0 +1,22 @@
+uuid: 23661732-1b02-4d69-a666-44711894dab0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - harjoitus
+_core:
+  default_config_hash: lYfZyOcTZ83lrWEl7Gf6sUlsFedgtAF1W94T89UtJSc
+id: harjoitus_local_tasks
+theme: harjoitus
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

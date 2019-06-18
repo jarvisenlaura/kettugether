@@ -1,0 +1,25 @@
+uuid: 575097b1-c61c-4ff6-b3b0-55ff6721bfc9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - harjoitus
+_core:
+  default_config_hash: LJW3UNTvE3GSqepmKx_oFq4Wg3xEPED2pTSskErbEWA
+id: harjoitus_branding
+theme: harjoitus
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }
