@@ -15,7 +15,7 @@ rss_url: rss.xml
 show_social_icon: 1
 show_credit_link: 0
 show_slideshow: 1
-no_of_slides: '4'
+no_of_slides: '5'
 slide_title_1: 'Reitti 2000'
 slide_description_1: 'Reitti 2000 tarjoaa hienon läpileikkauksen pääkaupunkiseudun ja lähikuntien ulkoilumaastoista aina hienoista järvimaisemista rauhallisiin erämaisemiin asti. '
 slide_url_1: '#http://test-site.test/retket'
@@ -38,9 +38,9 @@ favicon:
   path: 'public://apple-touch-icon_1.png'
   mimetype: image/png
 slide_image_path1:
-  - '65'
+  - '105'
 slide_image_path2:
-  - '66'
+  - '106'
 slide_image_path3:
   - '67'
 slide_image_path4:
@@ -48,3 +48,8 @@ slide_image_path4:
 slide_title_4: 'KETTUPOLUT -SOVELLUS KULKEE MUKANASI REITEILLÄ'
 slide_description_4: 'Sovellus on ilmainen ja ladattavissa App Storesta tai Google Playsta. Saat tilauksesi yhteydessä aktivointikoodin sovelluksen avaamiseen. '
 slide_url_4: 'http://test-site.test/node/68'
+slide_image_path5:
+  - '107'
+slide_title_5: 'Urbaani sieniretki'
+slide_description_5: 'Irtaudu arjesta helposti poikkeamalla sienimetsään ihan Helsingin keskustan lähistöllä. Kettupolut-sovelluksessa esitelty reitiltä löytyviä syötäviä sieniä. '
+slide_url_5: '#http://test-site.test/retket'

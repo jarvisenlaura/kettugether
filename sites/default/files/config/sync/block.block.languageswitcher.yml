@@ -1,0 +1,20 @@
+uuid: 09c28b55-4c08-4271-9b88-4d4d8d924186
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - onepage_zymphonies_theme
+id: languageswitcher
+theme: onepage_zymphonies_theme
+region: primary_menu
+weight: -5
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility: {  }

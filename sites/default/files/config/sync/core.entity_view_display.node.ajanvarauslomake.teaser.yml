@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.ajanvarauslomake.field_ajanvaraus
     - node.type.ajanvarauslomake
   module:
     - user
@@ -17,4 +18,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_ajanvaraus: true
+  langcode: true
