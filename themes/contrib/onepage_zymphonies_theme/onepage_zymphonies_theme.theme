@@ -146,7 +146,7 @@ function onepage_zymphonies_theme_get_slider_content() {
       <div class="slider-caption">
         <h2 class="slider-title">' . theme_get_setting('slide_title_' . $i, 'onepage_zymphonies_theme').'</h2>
         <div class="clearfix"><p class="slider-description">' . theme_get_setting('slide_description_' . $i, 'onepage_zymphonies_theme').'</p></div>
-        <a href=' . theme_get_setting('slide_url_' . $i, 'onepage_zymphonies_theme') . ' class="more-link">Read more</a>
+        <a href=' . theme_get_setting('slide_url_' . $i, 'onepage_zymphonies_theme') . ' class="more-link">Lue lisää</a>
       </div>
     </li>';
   }
