@@ -4,7 +4,7 @@
 /*Mixins*/
 @media (min-width: 767px) {
   .main-header {
-    position: fixed;
+    position: static;
     top: 0;
     left: 0;
     right: 0;
@@ -160,8 +160,8 @@
   text-align: right;
 
 
+}
 
- }
   .region-contact-email p {
     margin: 10px 0;
     line-height: 120%;

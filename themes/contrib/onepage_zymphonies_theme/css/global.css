@@ -433,7 +433,7 @@ body {
   overflow-x: hidden;
   font-weight: 300;
   background: /*url('../images/body-bg.png?1487047946')*/ #F5F5F5;
-  padding-top: 55px;
+  /*padding-top: 55px;*/
 }
 
 /*Page title*/

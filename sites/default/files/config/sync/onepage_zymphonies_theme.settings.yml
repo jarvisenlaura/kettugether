@@ -18,15 +18,15 @@ show_slideshow: 1
 no_of_slides: '6'
 slide_title_1: 'Reitti 2000'
 slide_description_1: 'Reitti 2000 tarjoaa hienon läpileikkauksen pääkaupunkiseudun ja lähikuntien ulkoilumaastoista aina hienoista järvimaisemista rauhallisiin erämaisemiin asti. '
-slide_url_1: '#http://test-site.test/retket'
+slide_url_1: /retket
 slide_image_path_1: /images/slider/slide_01.jpg
 slide_title_2: 'Vietä yö puussa'
 slide_description_2: 'Häiritseekö naapurin kuorsaus tai kivet ja männynkävyt retkelläsi? Riippumatossa voit nukkua yksilöllisesti ja mukavasti luonnon keskellä omassa rauhassa, mutta ryhmän tuomassa turvassa.'
-slide_url_2: '#http://test-site.test/retket'
+slide_url_2: /retket
 slide_image_path_2: /images/slider/slide_02.jpg
 slide_title_3: 'Koe upea korpinkierros Nuuksiossa'
 slide_description_3: 'Näe Mustalammen kelluvat turvelautat ja levähdä piknikillä.'
-slide_url_3: '#http://test-site.test/retket'
+slide_url_3: /retket
 slide_image_path_3: /images/slider/slide_03.jpg
 _core:
   default_config_hash: KaLNVgq6qGhSV-TerDCQAiCaPJrmq41RgHhVcYzbxjI
@@ -47,14 +47,14 @@ slide_image_path4:
   - '101'
 slide_title_4: 'KETTUPOLUT -SOVELLUS KULKEE MUKANASI REITEILLÄ'
 slide_description_4: 'Sovellus on ilmainen ja ladattavissa App Storesta tai Google Playsta. Saat tilauksesi yhteydessä aktivointikoodin sovelluksen avaamiseen. '
-slide_url_4: 'http://test-site.test/node/68'
+slide_url_4: /kettupolut
 slide_image_path5:
   - '107'
 slide_title_5: 'Urbaani sieniretki'
 slide_description_5: 'Irtaudu arjesta helposti poikkeamalla sienimetsään ihan Helsingin keskustan lähistöllä. Kettupolut-sovelluksessa esitelty reitiltä löytyviä syötäviä sieniä. '
-slide_url_5: '#http://test-site.test/retket'
+slide_url_5: /retket
 slide_image_path6:
   - '112'
 slide_title_6: Villiyrttiretki
 slide_description_6: 'Keväällä ja alkukesästä villiyrtit ovat parhaimmillaan. Villiyrttiretkemme vie sinut luonnonantimien äärelle lähellä Helsingin keskustaa. '
-slide_url_6: '#http://test-site.test/retket'
+slide_url_6: /retket
